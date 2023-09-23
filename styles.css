@@ -1,0 +1,24 @@
+#intro {
+    background: linear-gradient(to bottom, #005AA7, #FFFDE4);
+    text-align: center;
+    padding: 2em;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+#countdown div {
+    font-size: 2em;
+}
+
+#rsvp {
+    margin: 2em;
+}
+
+#rsvp-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+}
