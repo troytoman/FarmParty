@@ -22,3 +22,11 @@
     grid-template-columns: 1fr 2fr;
     gap: 1em;
 }
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Cover the entire window */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fix the background relative to the viewport */
+    background-position: center; /* Center the image */
+  }
