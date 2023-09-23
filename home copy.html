@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To Our Farm!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="intro">
+        <h1>Welcome To Our Farm!</h1>
+        <h2>A Country Shindig</h2>
+        <h3>Pamela is turning 60</h3>
+    </header>
+
+    <section id="countdown">
+        <div id="days"></div>
+        <div id="hours"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+    </section>
+
+    <section id="rsvp">
+        <form id="rsvp-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">RSVP</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
